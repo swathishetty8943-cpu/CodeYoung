@@ -1,4 +1,87 @@
-## 1. Project Summary 
+# TRANSCRIPT.md
+
+Full transcript of my AI-assisted work on the CodeYoung Full-Stack Engineer assignment (User = my prompts, AI = assistant responses). Where the AI delivered a zip file, it is noted in the reply.
+
+---
+
+## User -
+
+Dear Sir/Madam,
+
+Greetings From Talentise Global!!
+
+With reference to the recruitment drive of "Codeyoung", please find below the details of the Assignment Task (For Full-Stack Development Profile) to be done, along with the shortlisted candidates list as attached from your institute.
+
+**Full stack Engineer Task:**
+
+At Codeyoung, parents have the option to book a "trial class" to experience our product and the quality coaching our mentors provide before signing up.
+
+This is the flow parents usually go through:
+
+1. Parents pick a time slot that's comfortable for them.
+2. We assign an available mentor
+3. We email both the mentor and the parent a link that takes them to a live class.
+
+The task is to build a similar appointment-booking system which has:
+
+- 10 mentors available for trial classes
+- 20 parents interested in booking a trial class per day
+
+Build a web app that parents can use to book this trial class. You should use NodeJS or Python for any backend APIs and React for the frontend.
+
+Feel free to use any other backend or frontend libraries.
+
+Requirements:
+
+1. Mentors and parents may be in different time zones. Usually, parents are in the US or UK, and mentors are in India. Please make sure local times are always displayed and communicated to them.
+2. Daylight Savings Time is a niggle you have to handle.
+3. Parents and mentors can receive a dummy link. It's assumed that the link will work and will take them to a demo class.
+4. Mentors have at most 2 demo classes a day.
+5. If no mentors are available, use your judgment to communicate an appropriate error state.
+
+Submission:
+
+1. You are encouraged to use an AI assistant to solve this task.
+2. Submit the solution as a Github repo link which has a README.md that describes how to run the project.
+3. You should also submit a full transcript (both your prompts and agent responses) of your AI sessions. (/export in Claude code for example).
+4. Submit it as TRANSCRIPT.md in the Github repo.
+5. All the above mentioned should be submitted to the email id: campus.ka@talentiseglobal.com within 28th of September 2026 (Latest by 6:00 PM)
+6. The subject line of the assignment submission task email should be like: Codeyoung Assignment Task - <Candidate Name> - Institute Name (ABBR)
+
+Evaluation:
+
+1. If you have questions about edge cases or more requirements, we expect you to research Codeyoung & similar systems to understand how they solve similar cases.
+2. A good part of this evaluation is what you do & don't build.
+3. Your product should be usable. Your design sense, and how much you think from a customer PoV will be evaluated.
+4. Code-level architecture and design patterns you use, and how you guide the AI to write good, maintainable code is another pillar criterion.
+
+Please Note: Shortlisted candidates are also marked in the mail.
+
+Institute is requested to inform them and share the assignment task with them (from institutes end) at the earliest.
+
+Thanks & Regards,
+
+i want a home page,where there is a brief intro about our coaching app,
+there there will be a dotrection to login or signup. i also need signup or login through google.if email then email,name and passowrd.
+the users need to selct their role while login,and signup can only be done by parents not for the mentors.
+i need another page for admin it is sepaerate frontend who can add mentors,and have some more configurations.
+after logging in parents and mentors can login to their respective dashboard and rest in mentioned above.
+While scheduling the classes, only if the email exists, such has to be entered and confirmed, otherwise show up the error before confirming.
+before the scheduled class, another email has to be sent to the parent as a reminder email an hour prior, with the meet link.
+After login, have a dashboard showing all the prior and future classes they have scheduled.
+i need frontend backend and databse.i want to use mongodb.have a sepearte env file,make sure that the code is refactored and well striuctured like professionals.
+
+Make a detailed prompt for me for this also explain how each page should be
+
+## AI -
+
+# CodeYoung Trial Class Booking System: Build Prompt & Page-by-Page Spec
+
+Use this as the master prompt to feed into your AI coding assistant (Claude Code, etc.). It is written so that if you paste it in as-is, the AI has enough context to scaffold the entire app in one pass, then you iterate section by section.
+
+---
+
+## 1. Project Summary (give this to the AI first)
 
 > Build a full-stack trial-class booking system for an ed-tech company called CodeYoung.
 > Parents book a free trial class, get auto-matched with an available mentor, and both
