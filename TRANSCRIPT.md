@@ -1,9 +1,3 @@
-# TRANSCRIPT.md
-
-Full transcript of my AI-assisted work on the CodeYoung Full-Stack Engineer assignment (User = my prompts, AI = assistant responses). Where the AI delivered a zip file, it is noted in the reply.
-
----
-
 ## User -
 
 Dear Sir/Madam,
@@ -45,7 +39,7 @@ Submission:
 2. Submit the solution as a Github repo link which has a README.md that describes how to run the project.
 3. You should also submit a full transcript (both your prompts and agent responses) of your AI sessions. (/export in Claude code for example).
 4. Submit it as TRANSCRIPT.md in the Github repo.
-5. All the above mentioned should be submitted to the email id: campus.ka@talentiseglobal.com within 28th of September 2026 (Latest by 6:00 PM)
+5. All the above mentioned should be submitted to the email id within 28th of September 2026 (Latest by 6:00 PM)
 6. The subject line of the assignment submission task email should be like: Codeyoung Assignment Task - <Candidate Name> - Institute Name (ABBR)
 
 Evaluation:
@@ -81,7 +75,7 @@ Use this as the master prompt to feed into your AI coding assistant (Claude Code
 
 ---
 
-## 1. Project Summary (give this to the AI first)
+## 1. Project Summary
 
 > Build a full-stack trial-class booking system for an ed-tech company called CodeYoung.
 > Parents book a free trial class, get auto-matched with an available mentor, and both
@@ -296,7 +290,7 @@ ADMIN_FRONTEND_URL=http://localhost:5174
 - [ ] GitHub repo, public or with access granted
 - [ ] `README.md`: setup instructions for backend, frontend-app, and frontend-admin (env vars, install, run, seed an admin/mentor if needed)
 - [ ] `TRANSCRIPT.md`: full export of your AI coding session(s)
-- [ ] Email to `campus.ka@talentiseglobal.com` before **28 Sept 2026, 6:00 PM**, subject: `Codeyoung Assignment Task - <Your Name> - <Institute Abbreviation>`
+- [ ] Email  before **28 Sept 2026, 6:00 PM**, subject: `Codeyoung Assignment Task - <Your Name> - <Institute Abbreviation>`
 
 ---
 
